@@ -1,0 +1,19 @@
+Notes:- 
+Start npm - npm Infinity.
+How to convert our code to older version of browser-  polyfill
+    Like example of map function. suppose map doesn't work in some browser then we can create our own map fucntion.
+Babel -- babel plugin transform remove console. 
+Diffing Algorihtm-- Hota ye hai ki agar list mey liek ul-li wala agar new li add karoge to react append karta hai last mey, 
+                    sean ye hai ki agar last mey add kiye toh thik but first mey add kiya toh , then react ko re render karna
+                    padega sab, bas isilye hme key dena hai like <li key="22"> ListValue </li>
+JSX-- Its not HTML inside JavaScript, <h1> in jsx is not html but a html like syntax
+HTMLvsJSX-- wahi init caps and all
+JSX execution- how does jsx execute? Babel understands the JSX code
+babel-- babeljs.io == pura normal JSX ko convert karta hai 
+functionalComponent is a normal fucntion which returns either a JSX or a react element (which in turns is actually a jS)
+XSS attack- cross site scripting attach, if i'm able to run a JavaScript inside your code i can run anything, but this doesn't work with 
+            jsx, bascially pahle check karta hai aur sanitize karta hai toh issue nahi hoga
+Component Composition- Component inside a component is a component Composition
+Is the component hoisted- behaves excalty as a JavaScript component
+{{ }}  this is a JavaScript object
+

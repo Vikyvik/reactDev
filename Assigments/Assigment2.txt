@@ -1,0 +1,50 @@
+What is NPM?
+
+NPM (Node Package Manager) is a package manager for JavaScript, allowing developers to install, share, and manage dependencies (libraries and packages) in their projects. It also hosts a large repository of open-source JavaScript packages.
+What is Parcel/Webpack? Why do we need it?
+
+Parcel and Webpack are module bundlers for JavaScript. They take modules with dependencies and generate static assets representing those modules. They are used to bundle JavaScript files and assets for use in a browser, optimizing loading time and efficiency.
+What is .parcel-cache?
+
+.parcel-cache is a directory used by Parcel to store a cache of compiled assets and other files. This speeds up the build process by reusing previously compiled code.
+What is npx?
+
+npx is a package runner tool that comes with NPM. It allows you to run packages without installing them globally. It's useful for running packages, testing, and executing commands from packages not installed globally.
+What is the difference between dependencies vs devDependencies?
+
+dependencies are modules required for the application to run, like libraries used in the code. devDependencies are modules required during development and testing, like testing frameworks or compilers, but not in production.
+What is Tree Shaking?
+
+Tree Shaking is a process used in modern JavaScript bundlers to eliminate dead code. It removes unused code from the final bundle, reducing size and improving performance.
+What is Hot Module Replacement?
+
+Hot Module Replacement (HMR) is a feature that updates modules in the browser at runtime without needing a full refresh. This is particularly useful in development as it maintains the state of the application while updating.
+List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+
+Zero configuration required
+Fast bundle times
+Built-in code splitting
+Friendly error logging
+Out-of-the-box support for various file types
+Descriptions:
+Zero configuration: Parcel requires no complex configuration to get started, making it easy for beginners to use.
+Fast bundle times: Parcel efficiently bundles projects quickly, saving valuable development time.
+Built-in code splitting: Parcel automatically splits code for better performance, allowing for faster loading times in applications.
+What is .gitignore? What should we add and not add into it?
+
+.gitignore is a file used to specify untracked files that Git should ignore. Files like personal environment files, build folders like node_modules, and log files should be added to it. Source code and documentation should not be ignored.
+What is the difference between package.json and package-lock.json?
+
+package.json lists the dependencies for a project and other metadata. package-lock.json is an auto-generated file that specifies the exact versions of all packages and their dependencies installed in node_modules.
+Why should I not modify package-lock.json?
+
+Modifying package-lock.json manually can lead to inconsistencies and conflicts in dependencies. It's meant to be auto-generated to ensure that the same versions of packages are installed in different environments.
+What is node_modules? Is it a good idea to push that on git?
+
+node_modules is a folder containing all the packages installed for a project. It's not a good idea to push this folder to Git because it can be very large and the packages can be installed by running npm install using package.json.
+What is the dist folder?
+
+The dist (distribution) folder contains the final output of your compiled and bundled source code, ready for deployment in a production environment.
+What is browserlists?
+
+browserslist is a configuration for specifying the range of browsers and environments you want to support. Tools like Babel and Autoprefixer use this to tailor their output accordingly.

@@ -1,0 +1,31 @@
+{
+  "name": "vivek-check",
+  "version": "1.0.0",
+  "description": "Your project description here.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "repository-url"
+  },
+  "author": "Your Name <youremail@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "prettier": "3.2.2",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 10 Chrome version",
+    "last 10 Firefox version",
+    "last 10 Safari version"
+  ]
+}
